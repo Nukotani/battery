@@ -1,0 +1,2 @@
+#!/usr/bin/bash
+echo "$(< /sys/class/power_supply/BAT1/capacity)% ($(< /sys/class/power_supply/BAT1/status))"
